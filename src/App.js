@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import PlayerCard from "./components/PlayerCard";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import data from "./data.json";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  // Setting this.state.data to the data json array
+  state = {
+    data
+  };
+
+  // Map over this.state.data and render a PlayerCard component for each data object
+  render() {
+    return (
+      <Wrapper>
+        <Title>Players List</Title>
+        {this.state.data.map(data => (
+          <PlayerCard
+            id={data.id}
+            key={data.id}
+            image={data.image}
+            clicked={data.clicked}
+          />
+        ))}
+      </Wrapper>
+    );
+  }
 }
 
 export default App;
