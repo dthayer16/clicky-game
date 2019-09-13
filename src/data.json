@@ -1,62 +1,74 @@
 [
     {
         "id": 1,
-        "image": "",
+        "image": "/assets/chris_carson.png",
+        "name": "Chris Carson",
         "clicked": false
     },
     {
         "id": 2,
-        "image": "",
+        "image": "/assets/christian_mccaffrey.png",
+        "name": "Christian McCaffrey",
         "clicked": false
     },
     {
         "id": 3,
-        "image": "",
+        "image": "/assets/dak_prescott.png",
+        "name": "Dak Prescott",
         "clicked": false
     },
     {
         "id": 4,
-        "image": "",
+        "image": "/assets/drew_brees.png",
+        "name": "Drew Brees",
         "clicked": false
     },
     {
         "id": 5,
-        "image": "",
+        "image": "/assets/jimmy_garoppolo.png",
+        "name": "Jimmy Garoppolo",
         "clicked": false
     },
     {
         "id": 6,
-        "image": "",
+        "image": "/assets/josh_jacobs.png",
+        "name": "Josh Jacobs",
         "clicked": false
     },
     {
         "id": 7,
-        "image": "",
+        "image": "/assets/larry_fitzgerald.png",
+        "name": "Larry Fitzgerald",
         "clicked": false
     },
     {
         "id": 8,
-        "image": "",
+        "image": "/assets/odell_beckham.png",
+        "name": "Odell Beckham Jr.",
         "clicked": false
     },
     {
         "id": 9,
-        "image": "",
+        "image": "/assets/patrick_mahomes.png",
+        "name": "Patrick Mahomes",
         "clicked": false
     },
     {
         "id": 10,
-        "image": "",
+        "image": "/assets/saquon_barkley.png",
+        "name": "Saquon Barkley",
         "clicked": false
     },
     {
         "id": 11,
-        "image": "",
+        "image": "/assets/terry_mclaurin.png",
+        "name": "Terry Mclaurin",
         "clicked": false
     },
     {
         "id": 12,
-        "image": "",
+        "image": "/assets/tom_brady.png",
+        "name": "Tom Brady",
         "clicked": false
     }
 ]

@@ -20,6 +20,7 @@ class App extends Component {
             id={data.id}
             key={data.id}
             image={data.image}
+            name={data.name}
             clicked={data.clicked}
           />
         ))}
