@@ -67,13 +67,13 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Navbar
+          score={this.state.score}
+          resetState={this.resetState}
+          highScore={this.state.highScore}
+        />
+
         <Wrapper>
-          <Navbar
-            score={this.state.score}
-            resetState={this.resetState}
-            highScore={this.state.highScore}
-          />
-          
           {this.state.data.map(player => (
             <PlayerCard
               handleCardCount={this.handleCardCount}
