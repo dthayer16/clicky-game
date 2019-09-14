@@ -4,15 +4,12 @@ import "./style.css";
 function PlayerCard(props) {
     return (
         <div className="card">
-            <div className="img-container">
-                <img alt={props.id} src={props.image} />
-            </div>
-            <div className="content">
-                <ul>
-                    <li>
-                        <strong>Name:</strong> {props.name}
-                    </li>
-                </ul>
+            <div className="img-container ">
+                <button onClick={() => props.handleCardCount(props.id)}>
+                    <span class="align-middle">
+                        <img alt={props.id} src={props.image} className="align-middle" />
+                    </span>
+                </button>
             </div>
         </div>
     );
